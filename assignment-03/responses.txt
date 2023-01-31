@@ -1,0 +1,8 @@
+- What is the relationship between an IP address and the DNS?
+The DNS finds and translates domain names into IP addresses. 
+
+- What is a cookie?
+Cookies are small text files that servers use to save information to identify your computer.
+
+- What are the three essential parts of a URL?
+The three essential parts of a URL are the scheme, the authority, and the path. 
