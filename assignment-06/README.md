@@ -1,0 +1,3 @@
+1. Here is one [screenshot](./images/assignment-06-screenshot.png) for this week. And here is the [other](images/assignment-06-screenshot-2.png). 
+
+2. Semantic Markup is used to give meaning to the information on a page. It can be used to place emphasis and also provide informaton to the user through citations and definitions. Structural Markup is used to embed information on the structure. This can include headings, paragraphs, etc. It guides the user visually through a page or document. 
