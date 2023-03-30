@@ -1,0 +1,75 @@
+body {
+    background-color: #6690AC;
+    font-family: Segoe UI;
+    text-align: center;
+}
+
+div {
+    border: 5px solid #024873;
+    display: inline-block;
+    border-radius: 2%;
+}
+
+img {
+    border-radius: 2%;
+    border: 5px solid #024873;
+}
+
+.painting {
+    background-color: #024873;
+    border: 10px solid #B48034;
+    height: 850px;
+    width: 700px;
+    display: inline-block;
+    color: #CFB04C;
+}
+
+.palette {
+    background-color: rgba(255, 255, 255, 0.877);
+    border: 5px solid #10724F;
+    color: #10724F;
+    padding: 10px;
+}
+
+#title {
+    font-size: 45px;
+    background-color: #024873;
+    color: #CFB04C;
+    margin: auto;
+    padding: 20px;
+}
+
+.dot {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot.one {
+    background-color: #024873;
+}
+
+.dot.two {
+    background-color: #6690AC;
+}
+
+.dot.three {
+    background-color: #10724F;
+}
+
+.dot.four {
+    background-color: #B48034;
+}
+
+.dot.five {
+    background-color: #CFB04C;
+}
+
+.rectangle {
+    height: 10px;
+    width: 400px;
+    border-radius: 2%;
+    display: inline-block;
+    background-color: #10724F;
+}
