@@ -1,0 +1,175 @@
+body {
+    background-color: #f2e4e4;
+    text-align: center;
+}
+
+div {
+    background-color: #454c73;
+    color: #f2e4e4;
+    border: 5px solid #565e8c;
+}
+
+h1 {
+    font-family: 'CrimsonText';
+    font-size: 80px;
+    font-style: bold;
+}
+
+h2 {
+    font-family: 'CrimsonText';
+    font-size: 35px;
+    line-height: 20px;
+}
+
+p {
+    font-family: 'Monsterrat';
+    font-size: 18px;
+    font-kerning: none;
+    line-height: 23px;
+}
+
+#title {
+    background-color: #454c73;
+    color: #f2e4e4;
+    border: 5px solid #565e8c;
+}
+
+#title:hover {
+    letter-spacing: 1em;
+    color: #d9bd6a;
+}
+
+.poem-link:visited {
+    color: #5b98a6;
+}
+
+.poem-link:link {
+    color: #f2e4e4;
+}
+
+.poem-link:active {
+    color: #d9bd6a;
+}
+
+#info {
+    font-size: 18px;
+    background-color: #565e8c;
+    border: 5px solid #454c73;
+    margin: auto;
+    padding: 20px;
+}
+
+#poem {
+    font-size: 18px;
+    text-align: left;
+    background-color: #565e8c;
+    border: 5px solid #454c73;
+    padding: 20px;
+    width: fit-content;
+    float: center;
+    
+}
+
+.accents {
+    background-color: #5b98a6;
+    border: 5px solid #d9bd6a;
+}
+
+#first-bar {
+    margin-top: 3.5em;
+    padding: 1em;
+}
+
+/* Menu */
+header {
+    position: fixed;
+    background-color: #454c73;
+    width: 99%;
+    height: 4em;
+    top: 0px;
+    font-family: 'Monsterrat';
+    text-align: right;
+    border: 5px solid #565e8c;
+}
+
+/* Menu Layout */
+.menu-item {
+    display: inline-block;
+    border: 0em;
+    margin: 1em .2em;
+    background-color: #f2e4e4;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    min-width: 5em;
+    text-align: center;
+}
+
+.menu-item:hover {
+    background-color: #d9bd6a;
+    color: #f2e4e4;
+}
+
+/* Link Style */
+.menu-item a {
+    color: #454c73;
+    text-decoration: none;
+}
+
+/* Dropdown */
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    border: 4px solid #f2e4e4;
+    position: absolute;
+    margin: 0.5em 0 0 -1em;
+    z-index: 1;
+    border-radius: 0em 0em 1em 1em;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a{
+    background-color: #f2e4e4;
+    color: #565e8c;
+}
+
+/* Dropdown Item Display Styling */
+.dropdown-item {
+    background-color: #f2e4e4;
+    border: 0em;
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 3em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: #454c73;
+    background-color: #d9bd6a;
+}
+
+#foundation:hover {
+    border-radius: 0em 0em .5em .5em;
+}
+
+.dropdown:hover {
+    border-radius: 1em 1em 0em 0em;
+}
+
+/* Site Name Styling */
+.site-name {
+    color: #f2e4e4;
+    border: 5px solid #454c73;
+    float: left;
+    min-width: 5em;
+    padding: 0.5 1em;
+    letter-spacing: .5em;
+    font-weight: bold;
+    margin: 1em;
+}
