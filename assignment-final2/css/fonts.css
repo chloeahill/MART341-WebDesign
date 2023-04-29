@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'SerlingGalleria';
+    src: url(../fonts/SerlingGalleria.otf) format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SerlingGalleria';
+    src: url(../fonts/SerlingGalleriaItalic.otf) format('truetype');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SerlingGalleria';
+    src: url(../fonts/SerlingGalleriaBold.otf) format('truetype');
+    font-style: bold;
+}

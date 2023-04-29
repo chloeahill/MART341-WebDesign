@@ -1,0 +1,288 @@
+/* General Styling */
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'SerlingGalleria';
+    font-style: bold;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'SerlingGalleria';
+    font-style: normal;
+    font-size: 40px;
+    color: #024873;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'SerlingGalleria';
+    font-style: normal;
+    font-size: 30px;
+    color: #024873;
+}
+
+h6 {
+    font-family: 'SerlingGalleria';
+    font-style: normal;
+    font-size: 15px;
+    color: #024873;
+}
+
+p {
+    color: #024873;
+    display: inline-block;
+    position: left;
+    font-family: 'Optima';
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+}
+
+ul {
+    display: inline-block;
+    position: left;
+    color: #024873;
+    font-family: 'Optima';
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    padding-left: 2em;
+    padding-right: 2em;
+    max-width: 700px;
+}
+
+ol {
+    display: inline-block;
+    position: left;
+    color: #024873;
+    font-family: 'Optima';
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    padding-left: 2em;
+    padding-right: 2em;
+    max-width: 700px;
+}
+
+.text-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.5em;
+    padding: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.recipetext {
+    display: inline-block;
+    display: left;
+    text-align: left;
+    border: 2px solid #024873;
+    border-radius: 0.5em;
+    padding: 1em;
+    padding-top: .2em;
+    padding-bottom: .2em;
+}
+
+/* Homepage Styling */
+#hometitle {
+    background-color: #0388a6;
+}
+
+#hometitle:hover {
+    letter-spacing: 1em;
+}
+
+#image {
+    float: right;
+    padding-right: 2em;
+    padding-left: 1em;
+}
+
+#texts {
+    
+    float: left;
+    padding-right: 1em;
+    max-width: 700px;
+}
+
+.homeline {
+    border: 1.25px solid #0388a6;
+}
+
+.contact {
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #024873;
+    border-radius: 0.5em;
+    padding: 1em;
+    padding-top: .2em;
+    padding-bottom: .2em;
+}
+
+form {
+    color: #024873;
+    font-family: 'SerlingGalleriaBold';
+    text-align: center;
+}
+
+/* Soups Styling */
+#soup {
+    background-color: #d95a4e;
+}
+
+#soup:hover {
+    letter-spacing: 1em;
+}
+
+.soupline {
+    border: 1.25px solid #d95a4e;
+}
+
+/* Entrees Styling */
+#entree {
+    background-color: #03658c;
+}
+
+#entree:hover {
+    letter-spacing: 1em;
+}
+
+.entreeline {
+    border: 1.25px solid #03658c;
+}
+
+/* Desserts Styling */
+#dessert {
+    background-color: #f28972;
+}
+
+#dessert:hover {
+    letter-spacing: 1em;
+}
+
+.dessertline {
+    border: 1.25px solid #f28972;
+}
+
+/* Menu Styling */
+header {
+    position: fixed;
+    background-color: white;
+    width: 99%;
+    height: 4em;
+    top: 0px;
+    font-family: 'SerlingGalleria';
+    text-align: center;
+    border: 5px solid white;
+    font-size: 20px;
+}
+
+#home-button {
+    display: inline-block;
+    border: 0em;
+    margin: 1em .2em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    min-width: 2em;
+    text-align: center;
+}
+
+#soup-button {
+    display: inline-block;
+    border: 0em;
+    margin: 1em .2em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    min-width: 2em;
+    text-align: center;
+}
+
+#entree-button {
+    display: inline-block;
+    border: 0em;
+    margin: 1em .2em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    min-width: 2em;
+    text-align: center;
+}
+
+#dessert-button {
+    display: inline-block;
+    border: 0em;
+    margin: 1em .2em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    min-width: 2em;
+    text-align: center;
+}
+
+/* Link Style */
+#home-button a {
+    color: #024873;
+    text-decoration: none;
+}
+
+#soup-button a {
+    color: #024873;
+    text-decoration: none;
+}
+
+#entree-button a {
+    color: #024873;
+    text-decoration: none;
+}
+
+#dessert-button a {
+    color: #024873;
+    text-decoration: none;
+}
+
+/* Hover Styling */
+#home-button a:hover {
+    color: #0388a6;
+}
+
+#home-button a:active {
+    color: #0388a6;
+}
+
+#soup-button a:hover {
+    color: #d95a4e;
+}
+
+#entree-button a:hover {
+    color: #03658c;
+}
+
+#dessert-button a:hover {
+    color: #f28972;
+}
+
+/* Back to Top Style */
+.back-button a {
+    text-decoration: none;
+    font-family: 'SerlingGalleria';
+    font-size: 15px;
+    border: 5px solid #024873;
+    background-color: #024873;
+    color: white;
+    margin: 1em .2em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    min-width: 2em;
+    text-align: right;
+}
+
+.back-button a:hover {
+    background-color: #0388a6;
+    border: 5px solid #0388a6;
+}
